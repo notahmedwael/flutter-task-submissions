@@ -74,13 +74,13 @@ class ProductsScreenState extends State<ProductsScreen> {
                     clipBehavior: Clip.antiAlias,
                     child: Image.network(
                       product.image ?? '',
-                      width: double.infinity,
+                      width: 70,
                       height: 60,
                       fit: BoxFit.cover,
                     ),
                   ),
                 ),
-                const SizedBox(height: 10),
+                const SizedBox(height: 20),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: Text(
